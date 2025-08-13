@@ -5,7 +5,7 @@ let client = null;
 export function getClient() {
   if (client) return client;
 
-  const brokerUrl = "ws://broker.hivemq.com:8000/mqtt";
+  const brokerUrl = "wss://broker.hivemq.com:8884/mqtt";
   const options = {
     clientId: "dashboard_" + Math.random().toString(16).substr(2, 8),
     keepalive: 60,
