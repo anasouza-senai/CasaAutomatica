@@ -40,18 +40,19 @@
 .read-the-docs {
   color: #888;
 }
+
 .cômodo-card {
   border-radius: 12px;
   padding: 20px;
   margin-bottom: 24px;
   box-shadow: 0 6px 12px rgba(0, 0, 0, 0.08);
   color: #333;
-  width: 280px;      /* menor largura pra ficar mais quadrado */
+  width: 280px; /* menor largura pra ficar mais quadrado */
   min-height: 280px; /* altura igual à largura */
   display: inline-block;
   vertical-align: top;
   margin-right: 20px;
-  background-color: #f9f9f9;
+  background-color: #feffc4; /* cor nova */
   transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
 
@@ -67,20 +68,20 @@
 }
 
 .cômodo-card.sala {
-  background: linear-gradient(135deg, #cce5ff, #e6f2ff);
+  background: linear-gradient(135deg, #feffc4, #e6f2ff);
 }
 
 .cômodo-card.quarto {
-  background: linear-gradient(135deg, #d1ecf1, #e8f7f9);
+  background: linear-gradient(135deg, #feffc4, #e8f7f9);
 }
 
 .cômodo-card.garagem {
-  background: linear-gradient(135deg, #e2e3ff, #f0f0ff);
+  background: linear-gradient(135deg, #feffc4, #f0f0ff);
 }
 
 .cômodo-card.sensor-card {
-  background: linear-gradient(135deg, #b3d7ff, #d0e9ff);
-  width: 320px;      /* menor largura do que antes */
+  background: linear-gradient(135deg, #feffc4, #d0e9ff);
+  width: 320px; /* menor largura do que antes */
   min-height: 320px; /* altura igual à largura */
   margin-bottom: 30px;
   text-align: center;
